@@ -14,7 +14,14 @@ export class ProductsComponent implements OnInit {
         {
             id: '1',
             image: 'assets/images/bitcoin.jpg',
-            title: 'arroz',
+            title: 'aspirinas',
+            price: 10,
+            description: 'x'
+          },
+          {
+            id: '2',
+            image: 'assets/images/bitcoin.jpg',
+            title: 'parasetamol',
             price: 10,
             description: 'x'
           },

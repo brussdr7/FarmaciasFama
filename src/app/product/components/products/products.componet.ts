@@ -13,14 +13,14 @@ export class ProductsComponent implements OnInit {
     products: Product[] = [
         {
             id: '1',
-            image: 'assets/images/bitcoin.jpg',
+            image: 'assets/images/Aspirina.jpg',
             title: 'aspirinas',
             price: 10,
             description: 'x'
           },
           {
             id: '2',
-            image: 'assets/images/bitcoin.jpg',
+            image: 'assets/images/parasetamol.jpg',
             title: 'parasetamol',
             price: 10,
             description: 'x'

@@ -14,5 +14,17 @@
     margin-left: auto;
 }
 
+@media (min-width: 500px) {
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .container {
+        max-width: 1110px;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+}
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
